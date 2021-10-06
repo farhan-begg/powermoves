@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+
+}
+
+.container_sidebar {
+    width: 200px;
+    height: 100vh;
+}
+
+.container_main {
+    /* Take the remaining width */
+    flex: 1;
+    /* Make it scrollable */
+
+}
+
+.component_layout{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.dashboard_tracker{
+    margin-top: 30px;
+}

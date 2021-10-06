@@ -1,0 +1,19 @@
+.tracker_body{
+    background-color: brown;
+    width: 700px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+text{
+    fill: white !important
+}
+
+text.recharts-text.recharts-cartesian-axis-tick-value {
+    stroke: none;
+    fill: rgb(255, 255, 255) !important;
+ 
+}
