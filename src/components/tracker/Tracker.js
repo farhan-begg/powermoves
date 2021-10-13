@@ -25,7 +25,7 @@ import { Card } from "@mui/material";
           <defs>
             <linearGradient id="color" x1="0" y1="0" x2="0" y2="1">
               <stop offset="0%" stopColor="rgb(255, 16, 240)" stopOpacity={0.4} />
-              <stop offset="75%" stopColor="pink" stopOpacity={.01} />
+              <stop offset="75%" stopColor="rgb(255, 16, 240)" stopOpacity={.01} />
             </linearGradient>
           </defs>
   

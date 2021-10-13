@@ -66,7 +66,7 @@ div {
 
 
 .css-1480iag-MuiInputBase-root-MuiInput-root:after{
-    border-bottom: 1px solid rgb(0, 179, 255)!important;
+    border-bottom: 1px solid rgb(255, 16, 240)!important;
 
 }
 
@@ -84,5 +84,5 @@ div {
 }
 
 .css-1pnmrwp-MuiTypography-root{
-    color: rgb(0, 255, 8) !important;
+    color: white !important;
 }
