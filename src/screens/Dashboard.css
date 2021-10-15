@@ -1,4 +1,23 @@
 .dashboard_layout{
     display: flex;
-    justify-content: space-evenly;
+  
+
+}
+
+.sidebar{
+position: relative;
+top: 0;
+left: 0;
+margin-right: 10px;
+}
+
+.graph{
+    flex-direction: row;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main {
+    margin-top: 10px;
 }
