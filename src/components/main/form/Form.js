@@ -15,10 +15,13 @@ const Form = () => {
   const classes = useStyles();
   const { addTransaction } = useContext(ExpenseTrackerContext);
   const [formData, setFormData] = useState(initialState);
+
+  console.log(formData);
     const createTransaction = () => {
-      const transaction = { ...formData, amount:Number(formData.amount), id: uuidv4() }
-      addTransaction()
+      const transaction = {...formData, amount: Number(formData.amount), id: uuidv4()}
+      addTransaction(transaction);
       setFormData(initialState)
+
 
     }
     return (
@@ -40,8 +43,8 @@ const Form = () => {
         <FormControl fullWidth>
           <InputLabel>Category</InputLabel>
           <Select value={formData.category} onChange={(e) => setFormData({ ...formData, category: e.target.value })}>
-          <MenuItem value="Category">Income</MenuItem>
-            <MenuItem value="test">Expense</MenuItem>
+          <MenuItem value="business">Business</MenuItem>
+            <MenuItem value="salary">Salary</MenuItem>
           </Select>
         </FormControl>
       </Grid>
@@ -52,7 +55,7 @@ const Form = () => {
       <Grid item xs={6}>
         <TextField fullWidth label="Date" type="date" value={formData.date} onChange={(e) => setFormData({ ...formData, date: e.target.value })} />
       </Grid>
-            <Button className={classes.button} variant="outlined" color="primary" fullWidth onClick={createTransaction}>Create</Button>
+            <Button className={classes.button} variant="outlined" color="primary" fullWidth onClick={createTransaction} >Create</Button>
         </Grid>
     )
 }
