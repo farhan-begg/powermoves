@@ -2,16 +2,20 @@ import { makeStyles } from '@material-ui/core'
 
 export default makeStyles(() => ({
     income : {
-        borderBottom: "10px solid rgb(57,255,20)",
-        height: 200,
+        borderBottom: "1px solid rgb(57,255,20)",
+        height: 450,
         minWidth: 400,
-        marginBottom :'10px'
+        marginBottom :'10px',
+        marginRight: 10
+        
     },	
+
  
     expense : {
-        borderBottom: "10px solid rgba(255,0, 0, 0.5)",
+        borderBottom: "1px solid rgba(255,0, 0, 0.5)",
+        
+        height: 450,
         minWidth: 400,
-        height: 200,
     }
 
 

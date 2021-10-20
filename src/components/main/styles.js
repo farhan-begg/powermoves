@@ -1,8 +1,12 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
+  multilineColor:{
+    color:'red'
+},
     root: {
-        height: 620
+        height: 620,
+        color: 'white'
     },
   media: {
     height: 0,
