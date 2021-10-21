@@ -5,7 +5,7 @@ export default makeStyles((theme) => ({
     color:'red'
 },
     root: {
-        height: 620,
+        height: '100vh',
         color: 'white'
     },
   media: {

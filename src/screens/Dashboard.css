@@ -13,14 +13,9 @@ margin-right: 10px;
 
 .graph{
     display: flex;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    clear:both;
 }
 
 .main {
-    margin-top: 10px;
     width: 400px;
-    clear: both;
 }

@@ -1,6 +1,6 @@
 body {
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #b7b7b7 0%, #000000 74%); 
+    background-color:rgb(40, 40, 43);
+
 } 
 
 *{
@@ -14,3 +14,12 @@ ul{
 li{
     list-style: none;
 }
+
+
+.MuiTypography-colorTextSecondary{
+    color: wheat !important;
+}
+
+::-webkit-calendar-picker-indicator {
+    color: white;
+  }

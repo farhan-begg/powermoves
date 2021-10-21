@@ -16,23 +16,24 @@ const Dashboard = () => {
         <div className="sidebar">
         <Sidebar />
         </div>
+        <div className="main">
+            <Main />
+            </div>
+            <div className="charts">
             <div className="graph">
             <Details title="Income" />
             <Details title="Expense" />
+        
+          </div>
+        <div className="tracker">
+          <Tracker  title="Income"  />
+          {/* <Tracker  title="Expense"  /> */}
+          </div>
             </div>
         
 
-      
-            <div className="main">
-            <Main />
-            <PushToTalkButtonContainer>
-                <PushToTalkButton />
-                <ErrorPanel />
-            </PushToTalkButtonContainer>
-            </div>
-
-
-
+        
+   
         </div>
   
       
